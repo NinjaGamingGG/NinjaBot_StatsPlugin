@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.35" />
+      <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+      <PackageReference Include="DSharpPlus" Version="5.0.0-nightly-02201" />
+      <PackageReference Include="DSharpPlus.Interactivity" Version="5.0.0-nightly-02201" />
+      <PackageReference Include="DSharpPlus.SlashCommands" Version="5.0.0-nightly-02201" />
+      <PackageReference Include="NinjaGaming.NinjaBot.CommonPluginHelpers" Version="1.0.0-Pre" />
+      <PackageReference Include="NinjaGaming.NinjaBot.PluginBase" Version="1.0.0-Pre" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="NinjaBot-DC">
+        <HintPath>..\..\NinjaBot-DC\NinjaBot-DC\bin\Debug\net8.0\NinjaBot-DC.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

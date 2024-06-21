@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo>
+  <PluginName>Stats Plugin</PluginName>
+  <EnvironmentVariablePrefix>stats-plugin</EnvironmentVariablePrefix>
+  <Description>Simple Discord Server Stats Plugin.</Description>
+  <PluginVersion>0.1</PluginVersion>
+</PluginInfo>
